@@ -6,7 +6,9 @@ https://github.com/c4pt000/cgminer/releases
 # Having a proper xorg.conf installed in /etc/X11/xorg.conf, gdm or lightdm (or equivalent) installed and running
 checking Xorg.0.log
 
-check if X is currently running to ensure mining programs dont kernel panic an entire remote system when they quit (or are forced quit)
+check if X is currently running
+<br>
+to ensure mining programs dont kernel panic an entire remote system when they quit (or are forced quit)
 ```
 [root@localhost ~]# ps ax | grep X
    4503 tty1     Sl+    0:03 /usr/libexec/Xorg vt1 -displayfd 3 -auth /run/user/42/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
