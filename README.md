@@ -3,7 +3,7 @@ enabling Xorg properly to disable kernel panics on mining program quit
 
 https://github.com/c4pt000/cgminer/releases
 
-# Having a proper xorg.conf installed in /etc/X11/xorg.conf, gdm or lightdm (or equivilent) installed and running
+# Having a proper xorg.conf installed in /etc/X11/xorg.conf, gdm or lightdm (or equivalent) installed and running
 checking Xorg.0.log
 
 check if X is currently running to ensure mining programs dont kernel panic an entire remote system when they quit (or are forced quit)
